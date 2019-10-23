@@ -1,5 +1,6 @@
 # Conditions
 Describes available conditions
+
 ## MatchEveryBuildCondition
 [[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/MatchEveryBuildCondition/help.html)]
 [[code](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/MatchEveryBuildCondition.java)]
@@ -7,6 +8,10 @@ Describes available conditions
 ## BuildNumberRangeCondition
 [[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildNumberRangeCondition/help.html)]
 [[code](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildNumberRangeCondition.java)]
+
+## BuildAgeRangeCondition
+[[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildAgeRangeCondition/help.html)]
+[[code](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildAgeRangeCondition.java)]
 
 # Actions
 Describes available actions
