@@ -1,3 +1,5 @@
+Following page describes available conditions and actions that are supported by the plugin. If the feature you are looking for is missing, file the issue or pull request.
+
 # Conditions
 Describes available conditions
 
