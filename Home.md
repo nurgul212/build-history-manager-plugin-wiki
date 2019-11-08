@@ -29,6 +29,7 @@ Describes available actions
 ## DeleteArtifactsAction
 [[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsAction/help.html)]
 [[code](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsAction.java)]
+[[example](https://github.com/jenkinsci/build-history-manager-plugin/wiki/Delete-artifacts)]
 
 ## DeleteBuildAction
 [[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteBuildAction/help.html)]
