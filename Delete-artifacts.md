@@ -32,3 +32,16 @@ pipeline {
 ```
 
 # Example
+# Example
+
+Following presents build history before and after running above configuration. Numbers refer to build number.
+
+| Before | After | Reason |
+|-|-|-|
+| <div align="center">[`23`]</div>with artifact | <div align="center">[`23`]</div>with artifact | Matched by first rule.<br>No action performed. |
+| <div align="center">[`24`]</div>without artifact | <div align="center">[`24`]</div>without artifact | Matched by first rule, no changes performed.<br>This is the last build performed by first rule because of `matchAtMost: 2` |
+| <div align="center">[`25`]</div>with artifact | <div align="center">[`25`]</div>without artifact | Matched by second rule, artifact was deleted |
+| <div align="center">[`30`]</div>without artifact | <div align="center">[`30`]</div>without artifact | Matched by second rule.<br>Artifact should be removed but it was not present. |
+| <div align="center">[`31`]</div>without artifact | <div align="center">[`31`]</div>without artifact | Matched by second rule.<br>Artifact should be removed but it was not present.<br>This is the last build performed by first rule because of `matchAtMost: 3` |
+| <div align="center">[`32`]</div>with artifact |  | Matched by second rule.<br>Build has been removed. |
+| <div align="center">[`35`]</div>with artifact |  | Matched by second rule.<br>Build has been removed. |
