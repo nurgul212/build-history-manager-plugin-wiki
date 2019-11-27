@@ -48,9 +48,9 @@ Following presents build history before and after running above configuration. N
 |-|-|-|
 | <div align="center">[`56`]<br>success</div> | <div align="center">[`56`]<br>success</div> | Matched by first rule.<br>None action performed. |
 | <div align="center">[`54`]<br>failure</div> | <div align="center">[`54`]<br>failure</div> | Matched by first rule.<br>None changes performed. |
-| <div align="center">[`52`]<br>success</div> | <div align="center">[`52`]<br>success</div> | Matched by first rule.<br> None changes performed.<br>This is the last build matched by first rule because of `matchAtMost: 3` |
+| <div align="center">[`52`]<br>success</div> | <div align="center">[`52`]<br>success</div> | Matched by first rule.<br> None changes performed.<br>This is the last build matched by this rule because of `matchAtMost: 3` |
 | <div align="center">[`50`]<br>failure</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
 | <div align="center">[`41`]<br>failure</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
-| <div align="center">[`35`]<br>success</div> | <div align="center">[`35`]<br>success</div> | Matched by second rule.<br>None changes performed.<br>This is the last build matched by first rule because of `matchAtMost: 1` |
+| <div align="center">[`35`]<br>success</div> | <div align="center">[`35`]<br>success</div> | Matched by second rule.<br>None changes performed.<br>This is the last build matched by this rule because of `matchAtMost: 1` |
 | <div align="center">[`32`]<br>unstable</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
 | <div align="center">[`30`]<br>success</div> |  | Matched by third rule.<br>Build will be removed. |
