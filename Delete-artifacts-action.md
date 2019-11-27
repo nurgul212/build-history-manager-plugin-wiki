@@ -11,7 +11,7 @@ pipeline {
   options {
     buildDiscarder(
 
-        BuildHistoryManager(
+        BuildHistoryManager([
             [
                 continueAfterMatch: false,
                 matchAtMost: 2
@@ -24,7 +24,7 @@ pipeline {
             [
                 actions: [DeleteBuild()],
             ]
-        )
+        ])
     )
   }
 }
