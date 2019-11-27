@@ -51,5 +51,5 @@ Following presents build history before and after running above configuration. N
 | <div align="center">[`52`]<br>success</div> | <div align="center">[`52`]<br>success</div> | Matched by first rule.<br> None changes performed.<br>This is the last build matched by first rule because of `matchAtMost: 3` |
 | <div align="center">[`50`]<br>failure</div> |  | Matched by third rule as the second rule does not meet condition for this build.<br>Build will be removed. |
 | <div align="center">[`41`]<br>failure</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
-| <div align="center">[`35`]<br>success</div> |  | Matched by second rule, none changes performed. |
+| <div align="center">[`35`]<br>success</div> | <div align="center">[`35`]<br>success</div> | Matched by second rule, none changes performed. |
 | <div align="center">[`32`]<br>failure</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
