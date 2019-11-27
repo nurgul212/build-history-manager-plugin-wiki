@@ -8,6 +8,9 @@ This page presents example how to use [DeleteArtifacts](https://github.com/jenki
 # Configuration
 ```groovy
 pipeline {
+
+  agent any
+
   options {
     buildDiscarder(
 
@@ -27,6 +30,14 @@ pipeline {
         ])
     )
   }
+
+   stages {
+      stage('Demo') {
+         steps {
+            echo "Hello!"
+         }
+      }
+   }
 }
 ```
 
