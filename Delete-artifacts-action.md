@@ -31,13 +31,13 @@ pipeline {
     )
   }
 
-   stages {
-      stage('Demo') {
-         steps {
-            echo "Hello!"
-         }
+  stages {
+    stage('Demo') {
+      steps {
+        echo "Hello!"
       }
-   }
+    }
+  }
 }
 ```
 
