@@ -6,7 +6,7 @@ Describes available conditions
 ## BuildResultCondition
 [[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildResultCondition/help.html)]
 [[code](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildResultCondition.java)]
-
+[[example](https://github.com/jenkinsci/build-history-manager-plugin/wiki/Build-result-condition)]
 ## BuildNumberRangeCondition
 [[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildNumberRangeCondition/help.html)]
 [[code](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildNumberRangeCondition.java)]
@@ -29,7 +29,7 @@ Describes available actions
 ## DeleteArtifactsAction
 [[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsAction/help.html)]
 [[code](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsAction.java)]
-[[example](https://github.com/jenkinsci/build-history-manager-plugin/wiki/Delete-artifacts)]
+[[example](https://github.com/jenkinsci/build-history-manager-plugin/wiki/Delete-artifacts-action)]
 
 ## DeleteBuildAction
 [[documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteBuildAction/help.html)]
