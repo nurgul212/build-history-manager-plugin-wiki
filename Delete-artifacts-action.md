@@ -9,27 +9,27 @@ This page presents example how to use [DeleteArtifacts](https://github.com/jenki
 ```groovy
 pipeline {
 
-  agent any
+    agent any
 
-  options {
-    buildDiscarder(
+    options {
+        buildDiscarder(
 
-        BuildHistoryManager([
-            [
-                continueAfterMatch: false,
-                matchAtMost: 2
-            ],
-            [
-                actions : [DeleteArtifacts()],
-                continueAfterMatch: false,
-                matchAtMost : 3
-            ],
-            [
-                actions: [DeleteBuild()],
-            ]
-        ])
-    )
-  }
+            BuildHistoryManager([
+                [
+                    continueAfterMatch: false,
+                    matchAtMost: 2
+                ],
+                [
+                    actions : [DeleteArtifacts()],
+                    continueAfterMatch: false,
+                    matchAtMost : 3
+                ],
+                [
+                    actions: [DeleteBuild()],
+                ]
+            ])
+        )
+    }
 
     stages {
         stage('Demo') {
