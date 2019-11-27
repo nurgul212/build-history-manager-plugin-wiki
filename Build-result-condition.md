@@ -52,4 +52,4 @@ Following presents build history before and after running above configuration. N
 | <div align="center">[`50`]<br>failure</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
 | <div align="center">[`41`]<br>failure</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
 | <div align="center">[`35`]<br>success</div> | <div align="center">[`35`]<br>success</div> | Matched by second rule.<br>None changes performed. |
-| <div align="center">[`32`]<br>failure</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
+| <div align="center">[`32`]<br>unstable</div> |  | Matched by third rule as the second rule does not meet condition.<br>Build will be removed. |
