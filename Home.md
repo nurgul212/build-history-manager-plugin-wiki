@@ -1,4 +1,6 @@
-Following page describes available conditions and actions that are supported by the plugin. If the feature you are looking for is missing, file the issue or pull request.
+Following page describes available conditions and actions that are supported by the plugin. Documentation is same as available during plugin configuration, implementation shows the code what it does and how. Finally examples contain pipeline configuration ready to use (copy&paste) with some sample build history that shows its state before and after plugin execution.
+If the feature you are looking for is missing, file the issue or pull request.
+Before starting to test new configuration, read [some tips](https://github.com/jenkinsci/build-history-manager-plugin/wiki/Building-good-rules)
 
 # Conditions
 Describes available conditions
