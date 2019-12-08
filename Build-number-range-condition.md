@@ -14,13 +14,11 @@ pipeline {
 
             BuildHistoryManager([
                 [
-                    conditions: [
-                        BuildNumberRange(maxBuildNumber: 75, minBuildNumber: 73)],
+                    conditions: [ BuildNumberRange(maxBuildNumber: 75, minBuildNumber: 73)],
                     actions: [ DeleteBuild() ]
                 ],
                 [
-                    conditions: [
-                        BuildNumberRange(maxBuildNumber: 70)],
+                    conditions: [ BuildNumberRange(maxBuildNumber: 70)],
                     actions: [ DeleteBuild() ]
                 ]
             ])
