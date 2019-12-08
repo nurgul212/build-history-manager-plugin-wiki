@@ -18,7 +18,7 @@ pipeline {
                     matchAtMost: 2
                 ],
                 [
-                    actions : [DeleteArtifacts() ],
+                    actions : [ DeleteArtifacts() ],
                     continueAfterMatch: false,
                     matchAtMost : 3
                 ],
