@@ -41,7 +41,7 @@ pipeline {
 
 # Example
 
-Following presents build history before and after running above configuration. Numbers refer to build number.
+Following presents build history before and after running above configuration. Numbers refer to Jenkins job number.
 
 | Before | After | Reason |
 |-|-|-|
