@@ -18,14 +18,12 @@ pipeline {
                     matchAtMost: 2
                 ],
                 [
-                    actions :
-                        [DeleteArtifacts()],
+                    actions : [DeleteArtifacts() ],
                     continueAfterMatch: false,
                     matchAtMost : 3
                 ],
                 [
-                    actions:
-                        [DeleteBuild()],
+                    actions: [ DeleteBuild() ],
                 ]
             ])
 
