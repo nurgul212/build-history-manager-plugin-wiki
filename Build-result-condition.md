@@ -17,13 +17,12 @@ pipeline {
                     matchAtMost: 3
                 ],
                 [
-                    conditions: [
-                        BuildResult(matchSuccess: true)],
+                    conditions: [ BuildResult(matchSuccess: true) ],
                     continueAfterMatch: false,
                     matchAtMost: 1
                 ],
                 [
-                    actions: [DeleteBuild()]
+                    actions: [ DeleteBuild() ]
                 ]
             ])
             
