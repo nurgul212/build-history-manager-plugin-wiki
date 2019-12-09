@@ -38,14 +38,14 @@ pipeline {
 
 # Example
 
-Following presents build history before and after running above configuration. Numbers refer to build number.
+Following presents build history before and after running above configuration. Numbers refer to Jenkins job number.
 
 | Before | After | Reason |
 |-|-|-|
-| <div align="center">[`23`]</div> | <div align="center">[`23`]</div> | Matched by first rule.<br>None action performed. |
-| <div align="center">[`24`]</div> | <div align="center">[`24`]</div> | Matched by first rule.<br> None changes performed.<br>This is the last build matched by this rule because of `matchAtMost: 2` |
-| <div align="center">[`25`]</div> | <div align="center">[`25`]</div> | Matched by second rule, artifact has been deleted |
-| <div align="center">[`30`]</div> | <div align="center">[`30`]</div> | Matched by second rule.<br>Artifact should be removed but it is not published. |
-| <div align="center">[`31`]</div> | <div align="center">[`31`]</div> | Matched by second rule.<br>Artifact should be removed but it was not present.<br>This is the last build matched by this rule because of `matchAtMost: 3` |
-| <div align="center">[`32`]</div> |  | Matched by second rule.<br>Build has been removed. |
-| <div align="center">[`35`]</div> |  | Matched by second rule.<br>Build has been removed. |
+| <div align="center">[`80`]</div> | <div align="center">[`23`]</div> | Matched by first rule.<br>None action performed. |
+| <div align="center">[`75`]</div> | <div align="center">[`24`]</div> | Matched by first rule.<br> None changes performed.<br>This is the last build matched by this rule because of `matchAtMost: 2` |
+| <div align="center">[`74`]</div> | <div align="center">[`25`]</div> | Matched by second rule, artifact has been deleted |
+| <div align="center">[`73`]</div> | <div align="center">[`30`]</div> | Matched by second rule.<br>Artifact should be removed but it is not published. |
+| <div align="center">[`70`]</div> | <div align="center">[`31`]</div> | Matched by second rule.<br>Artifact should be removed but it was not present.<br>This is the last build matched by this rule because of `matchAtMost: 3` |
+| <div align="center">[`2`]</div> |  | Matched by second rule.<br>Build has been removed. |
+| <div align="center">[`1`]</div> |  | Matched by second rule.<br>Build has been removed. |
