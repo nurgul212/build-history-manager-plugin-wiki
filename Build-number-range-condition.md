@@ -44,9 +44,9 @@ Following presents build history before and after running above configuration. N
 | Before | After | Reason |
 |-|-|-|
 | <div align="center">[`80`]</div> | <div align="center">[`80`]</div> | None rule matched. |
-| <div align="center">[`75`]</div> | | Matched by first rule.<br>Build has been removed. |
 | <div align="center">[`74`]</div> | | Matched by first rule.<br>Build has been removed. |
 | <div align="center">[`73`]</div> | | Matched by first rule.<br>Build has been removed. |
+| <div align="center">[`71`]</div> | <div align="center">[`71`]</div> | None rule matched. |
 | <div align="center">[`70`]</div> | | Matched by second rule.<br>Build has been removed. |
 | <div align="center">[`2`]</div> | <div align="center">[`2`]</div> | None rule matched. |
 | <div align="center">[`1`]</div> | <div align="center">[`1`]</div> | None rule matched. |
