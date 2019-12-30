@@ -41,5 +41,5 @@ Following presents build history before and after running above configuration. N
 | <div align="center">[`76`]<br>today</div> | <div align="center">[`76`]</div> | None rule matched. |
 | <div align="center">[`75`]<br>yesterday</div> | | Matched by first rule.<br>Artifacts have been removed. |
 | <div align="center">[`73`]<br>2 days old</div> | | Matched by first rule.<br>Artifacts have been removed. |
-| <div align="center">[`71`]<br>4 days old</div> | <div align="center">[`71`]</div> | None rule matched. |
+| <div align="center">[`71`]<br>3 days old</div> | <div align="center">[`71`]</div> | None rule matched. |
 
