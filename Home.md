@@ -18,6 +18,7 @@ Describes available conditions
 ## BuildAgeRangeCondition
 - [Documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildAgeRangeCondition/help.html)
 - [Implementation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/BuildAgeRangeCondition.java)
+- [Example](https://github.com/jenkinsci/build-history-manager-plugin/wiki/Build-age-range-condition)
 
 ## TokenMacroCondition 
 - [Documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/TokenMacroCondition/help.html)
