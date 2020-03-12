@@ -40,8 +40,6 @@ Describes available actions
 - [Documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteBuildAction/help.html)
 - [Implementation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteBuildAction.java)
 
-# Use cases
-Several cases with configuration that can be reused to solve concrete problems
-## Simple
-
-## Complex
+## DeleteLogFileAction
+- [Documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteLogFileAction/help.html)
+- [Implementation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteLogFileAction.java)
