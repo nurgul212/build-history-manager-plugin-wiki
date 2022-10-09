@@ -28,6 +28,10 @@ Describes available conditions
 - [Documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/MatchEveryBuildCondition/help.html)
 - [Implementation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/MatchEveryBuildCondition.java)
 
+## CauseCondition
+- [Documentation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/resources/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/CauseCondition/help.html)
+- [Implementation](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/conditions/CauseCondition.java)
+
 
 # Actions
 Describes available actions
