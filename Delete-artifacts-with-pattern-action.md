@@ -1,7 +1,7 @@
 This page presents example how to use [DeleteArtifactsWithPattern](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsWithPatternAction.java) action:
 
 # Requirements
-- Note: In the configuration below, we simulate the date(age) using build number range instead of waiting for 5 days, 7 days or whatever. Assuming that we're simulating a job which runs daily after 7 runs, 7 days should have elapsed.
+- In the configuration below, we simulate the date(age) using build number range instead of waiting for 5 days, 7 days or whatever. Assuming that we're simulating a job which runs daily after 7 runs, 7 days should have elapsed.
 - Delete all artifacts except the logs after 2 days
 - Delete all artifacts after 5 days.
 
