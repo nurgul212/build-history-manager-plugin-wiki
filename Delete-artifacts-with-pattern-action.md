@@ -1,4 +1,4 @@
-This page presents example how to use [DeleteArtifactsWithPattern](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsWithPatternAction.java) action:
+This page presents an example how to use the [DeleteArtifactsWithPattern](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsWithPatternAction.java) action:
 
 # Requirements
 - Simulate a job which runs daily after 7 runs, 7 days should have elapsed.
