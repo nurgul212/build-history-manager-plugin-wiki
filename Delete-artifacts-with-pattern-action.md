@@ -45,12 +45,12 @@ node {
 
 Following presents build history before and after running above configuration.
 
-| Run# | Days Ago | Expected Artifacts|
-|-|-|-|
-| <div align="center">[`1`]</div> | <div align="center">`6`</div> | All artifacts were deleted. |
-| <div align="center">[`2`]</div> | <div align="center">`5`</div> | All artifacts were deleted. |
-| <div align="center">[`3`]</div> | <div align="center">`4`</div> | `testFolder/testLog1.log, testLog.log` |
-| <div align="center">[`4`]</div> | <div align="center">`3`</div> | `testFolder/testLog1.log, testLog.log` |
-| <div align="center">[`5`]</div> | <div align="center">`2`</div> | `testFolder/testLog1.log, testLog.log` |
-| <div align="center">[`6`]</div> | <div align="center">`1`</div> | `test.xml, testFolder/test1.xml, testFolder/testLog1.log, testFolder/testTxt1.txt, testLog.log, testTxt.txt` |
-| <div align="center">[`7`]</div> | <div align="center">`0`</div> | `test.xml, testFolder/test1.xml, testFolder/testLog1.log, testFolder/testTxt1.txt, testLog.log, testTxt.txt` |
+| Run# | Days Ago | Expected Artifacts| Reason |
+|-|-|-|-|
+| <div align="center">[`7`]</div> | <div align="center">`0`</div> | `test.xml, testFolder/test1.xml, testFolder/testLog1.log, testFolder/testTxt1.txt, testLog.log, testTxt.txt` | None rule matched.|
+| <div align="center">[`6`]</div> | <div align="center">`1`</div> | `test.xml, testFolder/test1.xml, testFolder/testLog1.log, testFolder/testTxt1.txt, testLog.log, testTxt.txt` | None rule matched.|
+| <div align="center">[`5`]</div> | <div align="center">`2`</div> | `testFolder/testLog1.log, testLog.log` | Matched by first rule.<br> All artifacts were deleted except the log files.|
+| <div align="center">[`4`]</div> | <div align="center">`3`</div> | `testFolder/testLog1.log, testLog.log` | Matched by first rule.<br> All artifacts were deleted except the log files.|
+| <div align="center">[`3`]</div> | <div align="center">`4`</div> | `testFolder/testLog1.log, testLog.log` | Matched by first rule.<br> All artifacts were deleted except the log files.|
+| <div align="center">[`2`]</div> | <div align="center">`5`</div> |  | Matched by second rule.<br> All artifacts were deleted.|
+| <div align="center">[`1`]</div> | <div align="center">`6`</div> |  | Matched by second rule.<br> All artifacts were deleted.|
