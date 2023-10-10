@@ -1,4 +1,4 @@
-This page presents an example how to use the [DeleteArtifactsWithPattern](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsWithPatternAction.java) action:
+This page presents an example how to use the [DeleteArtifactsMatchingPatterns](https://github.com/jenkinsci/build-history-manager-plugin/blob/master/src/main/java/pl/damianszczepanik/jenkins/buildhistorymanager/model/actions/DeleteArtifactsMatchingPatternsAction.java) action:
 
 # Requirements
 - Simulate a job which runs daily after 7 runs, 7 days should have elapsed.
@@ -12,11 +12,11 @@ properties(
         buildDiscarder(BuildHistoryManager(
                 [
                     [
-                        actions: [DeleteArtifactsWithPattern(exclude: '**/*.log', include: '**')],
+                        actions: [DeleteArtifactsMatchingPatterns(excludePatterns: '**/*.log', includePatterns: '**')],
                         conditions: [BuildAgeRange(maxDaysAge: 7, minDaysAge: 2)]
                     ],
                     [
-                        actions: [DeleteArtifactsWithPattern(exclude: '', include: '**')],
+                        actions: [DeleteArtifactsMatchingPatterns(excludePatterns: '', includePatterns: '**')],
                         conditions: [BuildAgeRange(maxDaysAge: 7, minDaysAge: 5)]
                     ]
                 ]
